@@ -1,4 +1,10 @@
 Bute::Application.routes.draw do
+  resources :products
+
+
+  resources :services
+
+
   resources :profiles
 
 
